@@ -8,8 +8,6 @@ html{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     scroll-behavior: smooth;
 }
-#main{
-}
 .red-color{
     color: red !important;
 }
@@ -383,8 +381,6 @@ html{
     margin: 10px 20px;
     color: #7C8097;
 }
-.profile-contain{
-}
 .profile-btn {
     margin: 0px auto;
     text-align: center;
@@ -553,9 +549,6 @@ html{
 } */
 /* --------------- */
 
-#footer{
-
-}
 /* WISHES */
 
 .modal{
