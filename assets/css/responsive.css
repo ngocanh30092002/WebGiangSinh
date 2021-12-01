@@ -1,0 +1,184 @@
+/* PC */
+@media (min-width: 64em) {
+    .mobile-menu{
+        display: none;
+    }
+}
+/* Mobile */
+    @media (max-width:46.1875em) {
+    #header .nav-brand{
+        display: none;
+    }
+    #header .nav-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+        height: 45px;
+        /* background: rgba(0,0,0,0.2); */
+    }
+    #header .nav-list{
+        margin: 0;
+        display: none;
+        animation: changePosMenu 1s ease-in;
+    }
+    #slider{
+        /* margin-top: 168px; */
+    }
+    #nav .nav-btn li > a{
+        border: none;
+        border-radius: 0px;
+        display: block;
+        background-color: black;
+        height: 45px;
+    }
+    #nav .nav-btn li > a:hover{
+        border-radius: 0;
+    }
+    #nav .nav-btn li{
+        padding: 0;
+    }
+    .nav-header{
+        background-color: black;
+    }
+    #header{
+        position: fixed;
+        top: 0;
+        height: auto;
+    }
+    .search-box{
+        margin: 2px 3px;
+        padding: 20px;
+        height: 30px;
+    }
+    .search-btn{
+        width: 40px;
+        height: 40px;
+    }
+    .search-box:hover .search-txt {
+        width: 170px;
+        padding: 0px 15px;
+    }
+    .container-header .container-img img{
+        width: 100px;
+        margin: 0px 25px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        border-radius: 50%;
+    }
+    .container-introduce{
+        margin-right: 6px;
+    }
+    .introduce-title .title-follow{
+        margin-top: 15px;
+        width: 100%;
+        margin-left:60%;   
+    }
+    .introduce-title .title-text{
+        margin-top: 20px;
+        font-size: 24px;
+
+    }
+    .container-introduce .introduce-title{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 108px;
+    }
+    .introduce-title .title-btn-load{
+        position: absolute;
+        top: 8px;
+        left: 21%;
+        animation: rotateLoad 2s linear infinite;
+        z-index: 3;
+    }
+    .introduce-title .title-follow button{
+        padding: 8px 40px;
+        color: white;
+    }
+    .introduce-title .btn-follow2 button{
+        position: unset;
+        margin-left: 18px;
+    }
+    .container-introduce .introduce-info{
+        width: 90vw;
+    }
+    .introduce-contain > p{
+        padding: 2px;
+        line-height: 1.4;
+    }
+    .introduce-info p{
+        font-size: 17px;
+    }
+    .modal-container .form-group textarea{
+        margin-top: 4px;
+        margin-bottom: 0px;
+    }
+    .modal-container{
+        width: 95%;
+    }
+    .story-item{
+        display: none;
+    }
+    .mobile-story{
+        display: flex;
+    }
+    .contain-story{
+        margin-top:25px;
+        margin-bottom: 35px;
+        justify-content:space-around;
+        margin-left: 0;
+    }
+    .container-category .category-team button,
+    .container-category .category-about button,
+    .container-category .category-tagged button{
+        padding: 20px 11px;
+        margin: 0;
+    }
+    .container-category .category-all{
+        justify-content: space-evenly;
+    }
+    #container{
+        overflow: hidden;
+    }
+    .about-thank{
+        margin-top: 25px;
+    }
+    .container-about .about-content p{
+        white-space: inherit;
+    }
+    .container-about{
+        min-height: 700px;
+    }
+    .container-tagged{
+        min-height: 400px;
+    }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width: 63.9375em) {
+    .container-profile .profile-team{
+        justify-content: unset;
+    }
+    .container-profile .profile-item{
+        flex: 1;
+        max-width: 288px;
+    }
+    .modal-container{
+        max-width: 500px;
+        margin-top: 60px;
+    }
+    .container-introduce{
+        margin: 0;
+    }
+    #header .nav-list{
+        margin-right: 0;
+    }
+    .mobile-menu{
+        display: none;
+    }
+}
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    
+}

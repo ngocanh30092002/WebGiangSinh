@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Grand Hotel' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link  rel="stylesheet"  href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="nav">
+                <div class="nav-header">
+                    <div class="mobile-menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="search-box">
+                        <input type="text" class="search-txt" name="" placeholder="Search...">
+                        <a href="" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </div>
+                </div>
+                <ul class="nav-list nav-btn">
+                    <li><a href="#slider">Home</a></li>
+                    <li><a href="#">Gift</a></li>
+                    <li><a href="#" class = 'js-btn-wishes'>Wishes</a></li>
+                    <li><a href="#container">About</a></li>
+                </ul>
+                
+                
+            </div>
+        </div>
+        <div class = 'modal js-modal'>
+            <div class="modal-container js-modal-container">
+                <form id = 'js-modal-success'action="https://formspree.io/f/mbjqnpkv" method="POST">
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id = "firstName"  required name = "firstName"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id = "lastName"  required name = "lastName"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">email</label>
+                        <input type="email" name="email"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea type="text" id = "message" required name="message" cols = "30" rows="10"> </textarea>
+                    </div>
+                    <div class="modal-button">
+                        <div class="plane-paper plane-close">
+                            <div class="plane1">
+                                <div class="plane2">
+                                    <div class="plane3">
+                                        <img src="./assets/img/telegram (1).png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="modal-btn-send js-click-send" type="submit">Send</button>
+                        <a class="modal-btn-cancel js-click-cancel" type="submit">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class='snow-container'>
+                <div class='snow foreground'>
+                    <div class='snow foreground layered'>
+                        <div class='snow middleground'>
+                            <div class='snow middleground layered'>
+                                <div class='snow background'>
+                                    <div class='snow background layered'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id = 'container'>
+            <div class="container-header">
+                <div class="container-img">
+                    <img src="./assets/img/tlit2.jpg" alt="">
+                </div>
+                <div class="container-introduce">
+                    <div class="introduce-title">
+                        <div class="title-text">
+                            TLIT-Team4
+                            <div class = "title-text-icon"><i class="fas fa-check-circle"></i></div>
+                        </div>
+                        <div class="title-follow js-btn-follow">
+                            <button>Follow</button>
+                        </div>
+                    </div>
+                    <div class="introduce-info">
+                        <div class="introduce-blog">
+                            <p>6.014 Blogs</p>
+                        </div>
+                        <div class="introduce-follower">
+                            <p>200k Followers</p>
+                        </div>
+                        <div class="introduce-followee">
+                            <p>120 Followings</p>
+                        </div>
+                    </div>
+                    <div class="introduce-contain">
+                        <p>Founded in ThangLong university</p>
+                        <p>Supported by 4 people: <span>#trong_nguyen</span> <span>#ngoc-ahnn</span> <span>#tien-bip</span>  <span>#hungg</span></p>
+                        <p>Tag us <span>#thanglong_information_technology</span></p>
+                        <p>Book an appointment with a celebrity, please contact us</p>
+                        <p>0316497646</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contain-story">
+                <div class="story-item">
+                    <div class="story-img">
+                        <img src="./assets/img/story1.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">Activities🔥🔥</div>
+                    </div>
+                </div>
+                <div class="story-item">
+                    <div class="story-img">
+                        <img src="./assets/img/caythong.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">Noel🎉</div>
+                    </div>
+                </div>
+                <div class="story-item">
+                    <div class="story-img">
+                        <img src="./assets/img/quatgioo.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">Tuition Fee😢</div>
+                    </div>
+                </div>
+                <div class="story-item mobile-story">
+                    <div class="story-img">
+                        <img src="./assets/img/bavi1.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">BaVi🐄</div>
+                    </div>
+                </div>
+                <div class="story-item mobile-story">
+                    <div class="story-img">
+                        <img src="./assets/img/idols.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">Idols🏆🥇</div>
+                    </div>
+                </div>
+                <div class="story-item mobile-story">
+                    <div class="story-img">
+                        <img src="./assets/img/baohong.jpg" alt="">
+                    </div>
+                    <div class="story-desc">
+                        <div class="story-desc-text">Girls🌷🌹🥀</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-category">
+                <hr>
+                <div class="category-all">
+                    <div class="category-team">
+                        <button class = "category-team-btn" >
+                            <i class="fas fa-users"></i>
+                            MEMBERS
+                        </button>
+                    </div>
+                    <div class="category-about">
+                        <button class = "category-about-btn">
+                            <i class="fas fa-align-left"></i>
+                            ABOUT
+                        </button>
+                    </div>
+                    <div class="category-tagged">
+                        <button class = "category-tagged-btn">
+                            <i class="fas fa-user-tag"></i>
+                            TAGGED
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container-profile">
+                <div class="profile-team">
+                    <div class="profile-item">
+                        <div class="profile-header">
+                            <div class = 'profile-container-arrow'><i class="fas fa-arrow-left profile-arrow"></i></div>
+                            <div class = 'profile-container-heart'><i class="far fa-heart profile-heart"></i></div>
+                            <div class = 'profile-container-dots'><i class="fas fa-ellipsis-v profile-dots"></i></div>
+                        </div>
+                        <div class="profile-contain">
+                            <div class="profile-img">
+                                <img src="./assets/img/A91E400E-60BF-4C54-BCF8-57F9F20A3E9C.png" alt="">
+                            </div>
+                            <h1 class="profile-title">
+                                Ngoc Ahn
+                            </h1>
+                            <p class="profile-job">
+                                SENIOR WEBSITE DESIGNER
+                            </p>
+                            <div class="profile-des">
+                                <p>
+                                    Create interfaces and design websites that can be used conveniently @NgocAhnn3009
+                                </p>
+                            </div>
+                            <div class="profile-btn">
+                                <a class="btn-follow" href="https://www.facebook.com/NgocAhn3009/" target="_blank">
+                                    <svg height="40" width="190">
+                                        <rect class="shape" height="40" width="190"></rect>
+                                    </svg>
+                                    <div class="text">Follow Me</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-footer">
+                            <div class="profile-footer-icon">
+                                <div class="profile-insta">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="profile-face">
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                </div>
+                                <div class="profile-tiktok">
+                                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                            <div class="profile-follower">
+                                <div class="profile-amount">
+                                    <p class ="">13.5k</p>
+                                    <p class ="">20.5k</p>
+                                    <p class ="">19.5k</p>
+                                </div>
+                                <div class="profile-text">
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-item background-white">
+                        <div class="profile-header">
+                            <div class = 'profile-container-arrow'><i class="fas fa-arrow-left profile-arrow  text-black"></i></div>
+                            <div class = 'profile-container-heart'><i class="far fa-heart profile-heart  text-black"></i></div>
+                            <div class = 'profile-container-dots'><i class="fas fa-ellipsis-v profile-dots  text-black"></i></div>
+                        </div>
+                        <div class="profile-contain">
+                            <div class="profile-img">
+                                <img src="./assets/img/trong.jpg" alt="">
+                            </div>
+                            <h1 class="profile-title  text-black">
+                                Trong Nguyen
+                            </h1>
+                            <p class="profile-job">
+                                SENIOR WEBSITE DESIGNER
+                            </p>
+                            <div class="profile-des">
+                                <p>
+                                    Website design based on user experience and passionate animation effects @TrongDepTrai
+                                </p>
+                            </div>
+                            <div class="profile-btn">
+                                <a class="btn-follow" href="https://www.facebook.com/zawsze.in.love.ee" target="_blank">
+                                    <svg height="40" width="190">
+                                        <rect class="shape shape-black" height="40" width="190"></rect>
+                                    </svg>
+                                    <div class="text text-black">Follow Me</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-footer">
+                            <div class="profile-footer-icon">
+                                <div class="profile-insta">
+                                    <a href="#"><i class="fab fa-instagram  text-black"></i></a>
+                                </div>
+                                <div class="profile-face">
+                                    <a href="#"><i class="fab fa-facebook-square  text-black"></i></a>
+                                </div>
+                                <div class="profile-tiktok">
+                                    <a href="#"><i class="fab fa-tiktok  text-black"></i></a>
+                                </div>
+                            </div>
+                            <div class="profile-follower">
+                                <div class="profile-amount">
+                                    <p class = "text-black">17.1k</p>
+                                    <p class = "text-black">16.9k</p>
+                                    <p class = "text-black">13.3k</p>
+                                </div>
+                                <div class="profile-text">
+                                    <p class="">Followers</p>
+                                    <p class="">Followers</p>
+                                    <p class="">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-header">
+                            <div class = 'profile-container-arrow'><i class="fas fa-arrow-left profile-arrow"></i></div>
+                            <div class = 'profile-container-heart'><i class="far fa-heart profile-heart"></i></div>
+                            <div class = 'profile-container-dots'><i class="fas fa-ellipsis-v profile-dots"></i></div>
+                        </div>
+                        <div class="profile-contain">
+                            <div class="profile-img">
+                                <img src="./assets/img/tien.jpg" alt="">
+                            </div>
+                            <h1 class="profile-title">
+                                Duy Tien
+                            </h1>
+                            <p class="profile-job">
+                                SENIOR GAMES DESIGNER
+                            </p>
+                            <div class="profile-des">
+                                <p>
+                                    Game design based on unique ideas and user experience @IdolTien
+                                </p>
+                            </div>
+                            <div class="profile-btn">
+                                <a class="btn-follow" href="https://www.facebook.com/ldt.april14" target="_blank">
+                                    <svg height="40" width="190">
+                                        <rect class="shape" height="40" width="190"></rect>
+                                    </svg>
+                                    <div class="text">Follow Me</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-footer">
+                            <div class="profile-footer-icon">
+                                <div class="profile-insta">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="profile-face">
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                </div>
+                                <div class="profile-tiktok">
+                                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                            <div class="profile-follower">
+                                <div class="profile-amount">
+                                    <p class ="">11.9k</p>
+                                    <p class ="">18.6k</p>
+                                    <p class ="">20.2k</p>
+                                </div>
+                                <div class="profile-text">
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-item background-white">
+                        <div class="profile-header">
+                            <div class = 'profile-container-arrow'><i class="fas fa-arrow-left profile-arrow  text-black"></i></div>
+                            <div class = 'profile-container-heart'><i class="far fa-heart profile-heart  text-black"></i></div>
+                            <div class = 'profile-container-dots'><i class="fas fa-ellipsis-v profile-dots  text-black"></i></div>
+                        </div>
+                        <div class="profile-contain">
+                            <div class="profile-img">
+                                <img src="./assets/img/hung.jpg" alt="">
+                            </div>
+                            <h1 class="profile-title  text-black">
+                                Tuan Hung
+                            </h1>
+                            <p class="profile-job">
+                                SENIOR APP DESIGNER
+                            </p>
+                            <div class="profile-des">
+                                <p>
+                                    Design apps based on optimization algorithms @HungUngDung
+                                </p>
+                            </div>
+                            <div class="profile-btn">
+                                <a class="btn-follow" href="https://www.facebook.com/hung98nb" target="_blank">
+                                    <svg height="40" width="190">
+                                        <rect class="shape shape-black" height="40" width="190"></rect>
+                                    </svg>
+                                    <div class="text text-black">Follow Me</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-footer">
+                            <div class="profile-footer-icon">
+                                <div class="profile-insta">
+                                    <a href="#"><i class="fab fa-instagram  text-black"></i></a>
+                                </div>
+                                <div class="profile-face">
+                                    <a href="#"><i class="fab fa-facebook-square  text-black"></i></a>
+                                </div>
+                                <div class="profile-tiktok">
+                                    <a href="#"><i class="fab fa-tiktok  text-black"></i></a>
+                                </div>
+                            </div>
+                            <div class="profile-follower">
+                                <div class="profile-amount">
+                                    <p class = "text-black">17.5k</p>
+                                    <p class = "text-black">18.6k</p>
+                                    <p class = "text-black">15.4k</p>
+                                </div>
+                                <div class="profile-text">
+                                    <p class="">Followers</p>
+                                    <p class="">Followers</p>
+                                    <p class="">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-item">
+                        <div class="profile-header">
+                            <div class = 'profile-container-arrow'><i class="fas fa-arrow-left profile-arrow"></i></div>
+                            <div class = 'profile-container-heart'><i class="far fa-heart profile-heart"></i></div>
+                            <div class = 'profile-container-dots'><i class="fas fa-ellipsis-v profile-dots"></i></div>
+                        </div>
+                        <div class="profile-contain">
+                            <div class="profile-img">
+                                <img src="./assets/img/Minh.jpg" alt="">
+                            </div>
+                            <h1 class="profile-title">
+                                To Minh
+                            </h1>
+                            <p class="profile-job">
+                                MUSIC PRODUCER
+                            </p>
+                            <div class="profile-des">
+                                <p>
+                                    Music is not only for listening, but music is also "music". @MinhGiaiDieu
+                                </p>
+                            </div>
+                            <div class="profile-btn">
+                                <a class="btn-follow" href="https://www.facebook.com/anh.m1a" target="_blank">
+                                    <svg height="40" width="190">
+                                        <rect class="shape" height="40" width="190"></rect>
+                                    </svg>
+                                    <div class="text">Follow Me</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile-footer">
+                            <div class="profile-footer-icon">
+                                <div class="profile-insta">
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="profile-face">
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                </div>
+                                <div class="profile-tiktok">
+                                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                            <div class="profile-follower">
+                                <div class="profile-amount">
+                                    <p class ="">18.7k</p>
+                                    <p class ="">14.6k</p>
+                                    <p class ="">19.3k</p>
+                                </div>
+                                <div class="profile-text">
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                    <p class ="">Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-about">
+                <div class="about-header">
+                    <h2>Thank you TLIT for giving us the opportunity to work together.</h2>
+                </div>
+                <div class="about-content">
+                    <p> In 4 weeks, I really enjoy the working environment and the way to help people when they have difficulty in accessing technology.
+                        Moreover,I also love to be surrounded by excellent people who share the vision of “technology is good” and I am truly humbled by their support.
+                        In the future, I look forward to challenging myself in many different fields and making more friends.
+                        Finnaly, christmas time is here. I hope you have a wonderful New Year. May every day hold happy hours for you.
+                    </p>
+                </div>
+                <div class="about-thanks">
+                    <p>-Thanks for everything-</p>
+                    <br>
+                    <p>Ngoc Ahnn</p>
+                </div>
+            </div>
+            <div class="container-tagged">
+                <div class="tagged-icon">
+                    <i class="fas fa-photo-video"></i>
+                    <p>No photos yet</p>
+                </div>
+                <!-- <div class="tagged-text">No photos yet</div> -->
+            </div>
+        </div>
+        <div id="footer">
+
+        </div>
+    </div>
+    <script>
+        const sendBtn = document.querySelector('.js-click-send');
+        const cancelBtn = document.querySelector('.js-click-cancel');
+        const modal = document.querySelector('.js-modal');
+        const modalContainer = document.querySelector('.js-modal-container');
+        const planePaper = document.querySelector('.plane-paper');
+        const wishes = document.querySelector('.js-btn-wishes');
+        cancelBtn.addEventListener('click', function(){
+            modal.classList.remove('open')
+        })
+        sendBtn.addEventListener('click',function(){
+            planePaper.classList.remove('plane-close');
+        })
+        wishes.addEventListener('click',function(){
+            modal.classList.add('open');
+            planePaper.classList.add('plane-close');
+        })
+        modal.addEventListener('click',function(){
+            modal.classList.remove('open');
+            planePaper.classList.add('plane-close');
+        })
+        modalContainer.addEventListener('click',function(event){
+            event.stopPropagation();
+        })
+    </script>
+    <script src="./assets/css/main.js"></script>
+</body>
+</html>
