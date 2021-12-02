@@ -158,7 +158,7 @@ html{
 #slider{
     width: 100%;
     padding-top: 50%;
-    background: url(/assets/img/4414517.jpg) top center / cover no-repeat;;
+    background: url(/assets/img/background.jpg) top center / cover no-repeat;;
 }
 #container{
     display: inline-block;
@@ -577,7 +577,7 @@ html{
     font-family: "grand hotel";
     font-size: 20px;
     animation: FadeOutFadeIn 1s linear;
-    background-image: url(/assets/img/v1062-105.jpg);
+    background-image: url(/assets/img/modal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
