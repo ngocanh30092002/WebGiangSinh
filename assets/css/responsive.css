@@ -154,6 +154,7 @@
     .container-tagged{
         min-height: 400px;
     }
+    
 }
 /* Tablet */
 @media (min-width:46.25em) and (max-width: 63.9375em) {
@@ -166,7 +167,7 @@
     }
     .modal-container{
         max-width: 500px;
-        margin-top: 60px;
+        margin-top: 30%;
     }
     .container-introduce{
         margin: 0;
@@ -177,6 +178,16 @@
     .mobile-menu{
         display: none;
     }
+    /* .container-profile{
+        height: 1900px;
+        
+    }
+    .container-about{
+        height: 1000px;
+    }
+    .container-tagged{
+        height: 800px;
+    } */
 }
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {
