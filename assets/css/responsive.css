@@ -22,9 +22,6 @@
         display: none;
         animation: changePosMenu 1s ease-in;
     }
-    #slider{
-        /* margin-top: 168px; */
-    }
     #nav .nav-btn li > a{
         border: none;
         border-radius: 0px;
