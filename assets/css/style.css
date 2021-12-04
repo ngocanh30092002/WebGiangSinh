@@ -158,7 +158,7 @@ html{
 #slider{
     width: 100%;
     padding-top: 50%;
-    background: url(/assets/img/background.jpg) top center / cover no-repeat;;
+    background: url(../img/background.jpg) top center / cover no-repeat;;
 }
 #container{
     display: inline-block;
@@ -563,9 +563,7 @@ html{
     right: 0;
     background-color: rgba(191, 189, 168, 0.2)
 }
-.open{
-    display: block ;
-}
+
 
 .modal-container{
     width: 90%;
@@ -577,7 +575,7 @@ html{
     font-family: "grand hotel";
     font-size: 20px;
     animation: FadeOutFadeIn 1s linear;
-    background-image: url(/assets/img/modal.jpg);
+    background-image: url(../img/modal.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
@@ -735,6 +733,109 @@ textarea{
         transform: translateX(730px) translateY(-530px);
     }
     
+}
+
+
+/* Gift  */
+.gift-container{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.2);
+}
+.line-gradient{
+    position: relative;
+    background: #999955;
+    background-image: linear-gradient(#1e4f75 20%, #57bcfc 20%, #2f98c2 40%, #b6d2dd 40%, #b9e9fc 60%, #42ac62 60%, #04da8b 80%, #00753f 80%);
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 150px;
+    z-index: 2;
+}
+.gradient-color1{
+    background-image: linear-gradient(#DAB046 20%, #D73B25 20%, #D73B25 40%, #C71B25 40%, #C71B25 60%, #961A39 60%, #961A39 80%, #601035 80%);
+}
+.gradient-color2{
+    background-image: linear-gradient(#132c5e 20%, #1f4286 20%, #324873 40%, #4c6cac 40%, #324873 60%, #5d6981 60%, #5f6c85 80%, #E9EBEA 80%);
+}
+.gradient-color3{
+     background-image: linear-gradient(#694E4C 20%, #e06761 20%, #f8726b 40%, #E8CECC 40%, #ffe2e0 60%, #E8ADA9 60%, #d19a96 80%, #b65579 80%);
+}
+.gradient-color4{
+    background-image: linear-gradient(#022E40 20%, #034661 20%, #035959 40%, #047272 40%, #027353 60%, #038b65 60%, #038C5A 80%, #03c269 80%);
+}
+.gradient-color5{
+    background-image: linear-gradient(#1e4f75 20%, #57bcfc 20%, #2f98c2 40%, #b6d2dd 40%, #b9e9fc 60%, #42ac62 60%, #04da8b 80%, #00753f 80%);
+}
+.box-behind {
+    position: absolute;
+    background: #e1d4b2;
+    left: 50%;
+    margin-top: -216.5px;
+    margin-left: -270px;
+    /* padding-left: 20px; */
+    border-radius: 5px;
+    width: 520px;
+    height: 275px;
+    border: double;
+  }
+.gift-item{
+    display: none;
+    font-family: courier;
+    margin-top: 25%;
+    position: relative;
+    animation: changePosGift 1s linear;
+}
+.gift-sender{
+    padding: 15px 0px 16px 0;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.gift-content{
+    position: absolute;
+    width: 450px;
+    height: 225px;
+    padding: 25px;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 50%;
+    top: -40px;
+    margin-left: -236px;
+    background: #E9E2D0;
+    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
+    z-index: 5;
+}
+.gift-wishes{
+    text-align: left;
+    line-height: 1.2;
+}
+.gift-contact{
+}
+.gift-phoneNumber{
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+.gift-address a{
+    cursor: pointer;
+    color: rgb(124, 124, 218);
+    text-decoration: none;
+}
+.gift-address a:hover{
+    color: rgb(201, 124, 236);;
+}
+@keyframes changePosGift{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.open{
+    display: block ;
 }
 /* Snow */
 

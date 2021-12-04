@@ -154,7 +154,23 @@
     .container-tagged{
         min-height: 400px;
     }
-    
+    .gift-content{
+        width: 90%;
+        height: 320px;
+        left: 78.5%;
+        top: -60%;
+    }
+    .gift-item{
+        margin-top: 68%;
+    }
+    .box-behind{
+        margin-top: -252.5px;
+        margin-left: -160px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: 320px;
+        height: 346px;
+    }
 }
 /* Tablet */
 @media (min-width:46.25em) and (max-width: 63.9375em) {
@@ -178,16 +194,10 @@
     .mobile-menu{
         display: none;
     }
-    /* .container-profile{
-        height: 1900px;
-        
+    .gift-item{
+        margin-top: 50%;
     }
-    .container-about{
-        height: 1000px;
-    }
-    .container-tagged{
-        height: 800px;
-    } */
+
 }
 /* Tablet & Mobile */
 @media (max-width: 63.9375em) {

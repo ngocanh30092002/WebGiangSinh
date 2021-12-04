@@ -163,9 +163,21 @@ if (window.matchMedia("(max-width: 46.1875em)").matches) {
         item.addEventListener('click',clickMobileMenu2)
     }
 }
-// if(screen.availWidth <= 739){
-//     mobileMenu.addEventListener('click',clickMobileMenu)
-//     for(var item of navListElements){
-//         item.addEventListener('click',clickMobileMenu2)
-//     }
-// }
+// Random Gift
+const gifts = document.querySelectorAll('.gift-item');
+const giftContainer = document.querySelector('.gift-container');
+const giftBtn = document.querySelector('.js-btn-gift');
+var randomGift = Math.floor(Math.random()*10 % 5) ;
+gifts[randomGift].style.display = 'block';
+giftBtn.addEventListener('click',function(){
+    giftContainer.classList.add('open');
+    gifts[randomGift].style.display = 'block';
+})
+giftContainer.addEventListener('click',function(){
+    giftContainer.classList.remove('open');
+    gifts[randomGift].style.display = '';
+    randomGift = Math.floor(Math.random()*10 % 5);
+})
+gifts[randomGift].addEventListener('click',function(event){
+    event.stopPropagation();
+})
