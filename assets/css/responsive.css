@@ -154,8 +154,10 @@
     .gift-content{
         width: 90%;
         height: 320px;
-        left: 78.5%;
+        left: 0;
+        right: 0;
         top: -60%;
+        margin: 0 auto;
     }
     .gift-item{
         margin-top: 68%;
